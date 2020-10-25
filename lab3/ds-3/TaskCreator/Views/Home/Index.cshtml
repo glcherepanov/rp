@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form class="form-task" method="post">
+        <h1 class="h3 mb-3 font-weight-normal">Task creation</h1>
+        <label for="taskDescription" class="sr-only">Task Description</label>
+        <textarea type="text" id="taskDescription" class="form-control" placeholder="Task Description" name="taskDescription"></textarea>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" asp-action="SubmitForm">Create</button>
+    </form>
+</div>

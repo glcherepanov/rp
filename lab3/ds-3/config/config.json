@@ -1,0 +1,7 @@
+{
+  "BackendApiPort": 5003,
+  "TaskCreatorPort": 5001,
+  "NatsPort": 4222,
+  "RedisPort": 6379,
+  "NatsBus": "events"
+}
