@@ -1,0 +1,4 @@
+{
+  "BackendApiPort": 5003,
+  "TaskCreatorPort": 5001
+}
